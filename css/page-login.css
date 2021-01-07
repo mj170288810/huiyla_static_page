@@ -1,0 +1,154 @@
+/*body样式*/
+body {
+    /*background-color: aquamarine;*/
+    width: 1920px;
+    height: 1080px;
+    overflow: auto;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    /*background-color: #ff1;*/
+}
+.header .logo{
+    width: 100%;
+    height: 88px;
+}
+.header .logo img {
+    width: 146px;
+    height: 49px;
+    margin: 20px 0 0 360px;
+}
+
+
+
+.content{
+    width: 100%;
+    height: 688px;
+    background: url("../img/login/bg.png") no-repeat;
+    position: relative;
+}
+.content .loginComponent{
+    width: 500px;
+    height: 420px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 27px 0px rgba(213,213,213,0.35);
+    position: absolute;
+    top:150px;
+    left: 1060px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.content .loginComponent .textDesc {
+    margin: 35px 0 0px 55px;
+    background: url("../img/login/line.png") no-repeat bottom left;
+    padding-top:15px;
+    height: 40px;
+}
+.content .loginComponent .textDesc .selectedA,
+.content .loginComponent .textDesc a:hover{
+    font-size: 24px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    line-height: 6px;
+}
+.content .loginComponent .textDesc a{
+    text-decoration: none;
+    font-size: 21px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    text-align: left;
+    color: #aaaaaa;
+    letter-spacing: 1px;
+}
+.content .loginComponent .textDesc a:nth-child(1){
+    margin-right: 37px;
+}
+.content .loginComponent .phoneInput,
+.content .loginComponent .pwdInput{
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+.content .loginComponent .loginIcon {
+    display: inline-block;
+    width: 22px;
+    margin:15px 15px 15px 29px;
+    height: 22px;
+}
+.content .loginComponent .phoneInput .loginIcon{
+    background: url("../img/login/user.png") no-repeat;
+}
+.content .loginComponent .pwdInput .loginIcon{
+    background: url("../img/login/password.png") no-repeat;
+}
+.content .loginComponent .loginInput {
+    /*display: inline-block;*/
+    background-color: #3e75ff;
+    width: 81%;
+    height: 90%;
+}
+.content .loginComponent .textDescTwo {
+    margin: 22px 0 0px 55px;
+    width: 390px;
+    height: 20px;
+}
+.content .loginComponent .textDescTwo a{
+    font-size: 16px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    text-align: left;
+    color: #b5b5b5;
+    text-decoration: none;
+}
+.content .loginComponent .textDescTwo a:hover{
+    color: #292b35;
+}
+.content .loginComponent .loginButton{
+    background: linear-gradient(-90deg,#415bf6 0%, #6073f6 100%);
+    border-radius: 5px;
+}
+.content .loginComponent .loginButton a {
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    color: white;
+    letter-spacing: 11px;
+}
+.content .loginComponent .loginButton a:hover{
+    background-color: #195bb4;
+    border-radius: 5px;
+}
+
+.footer{
+    width: 100%;
+    height:312px;
+    background-color: #ff1;
+}
+
+
+/*消除父元素高度塌陷以及父子元素外边距重叠问题*/
+.clearFix:before,
+.clearFix:after {
+    content: "";
+    display: none;
+    clear: both;
+}
+.clearFix{
+    zoom: 1;
+}
+
+.wc {
+    width: 390px;
+    height: 50px;
+    background-color: #e7e7e7;
+    margin: 22px 0 0px 55px;
+}
