@@ -333,16 +333,6 @@ body {
 .right .content .rightContentBottom .dataShow .fontInstructionSpan{
     margin-left: 5px;
 }
-/*消除父元素高度塌陷以及父子元素外边距重叠问题*/
-.clearFix:before,
-.clearFix:after {
-    content: "";
-    display: none;
-    clear: both;
-}
-.clearFix{
-    zoom: 1;
-}
 
 
 /*公共部分样式*/
