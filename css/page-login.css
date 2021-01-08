@@ -71,6 +71,7 @@ body {
 .content .loginComponent .pwdInput{
     background: #f7f7f7;
     border-radius: 5px;
+    position: relative;
 }
 .content .loginComponent .loginIcon {
     display: inline-block;
@@ -85,10 +86,20 @@ body {
     background: url("../img/login/password.png") no-repeat;
 }
 .content .loginComponent .loginInput {
-    /*display: inline-block;*/
-    background-color: #3e75ff;
-    width: 81%;
-    height: 90%;
+    position: absolute;
+    left: 66px;
+    top: 2px;
+    width: 77.7%;
+    height: 92%;
+    opacity: 0.5;
+    border: none;
+    padding: 0 10px 0px 10px;
+    margin: 0 0 16px;
+    _background-attachment: fixed;
+    color: black;
+    font-size: 16px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
 }
 .content .loginComponent .textDescTwo {
     margin: 22px 0 0px 55px;
@@ -131,10 +142,48 @@ body {
 .footer{
     width: 100%;
     height:312px;
-    background-color: #ff1;
+    /*background-color: #ff1;*/
+    position: relative;
+}
+.footer .footerContent {
+    width: 915px;
+    height: 75px;
+    /*background-color: #5f8dff;*/
+    position: absolute;
+    top: 70px;
+    left: 503px;
 }
 
 
+.footer .footerContent .firstRow .firstRowSpan{
+    font-size: 18px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: bold;
+    color: #333333;
+}
+.footer .footerContent .firstRow{
+    margin-bottom: 40px;
+}
+.footer .footerContent .secondRow{
+    font-size: 14px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    color: #565656;
+}
+.footer .footerContent .secondRow span:nth-child(1),
+.footer .footerContent .secondRow span:nth-child(2){
+    margin-right: 45px;
+}
+    /*消除父元素高度塌陷以及父子元素外边距重叠问题*/
+.clearFix:before,
+.clearFix:after {
+    content: "";
+    display: none;
+    clear: both;
+}
+.clearFix{
+    zoom: 1;
+}
 
 .wc {
     width: 390px;
