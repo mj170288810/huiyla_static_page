@@ -1,0 +1,215 @@
+/*body样式*/
+body {
+    /*background-color: aquamarine;*/
+    width: 97%;
+    /*height: 1080px;*/
+    overflow: auto;
+}
+
+
+/*左侧logo和导航栏样式*/
+.left{
+    /*background-color: chartreuse;*/
+    height: 100%;
+    width: 14%;
+    _width: 13%;
+    float: left;
+}
+.left .logo{
+    width: 100%;
+    height: 88px;
+    background: linear-gradient(#383a43 0%, #292b35 100%);
+}
+.left .logo img {
+    width: 146px;
+    height: 49px;
+    margin: 20px 0 0 50px;
+}
+
+
+.left .leftNav{
+    width: 100%;
+    height: 992px;
+    background: #424651;
+}
+.leftNav .nav {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+.leftNav .nav li{
+    width: 100%;
+    height: 60px;
+    background: #424651;
+}
+.leftNav .nav .highLights,
+.leftNav .nav li:hover{
+    background: linear-gradient(#4077f8 1%, #373a43 100%);
+}
+.leftNav .nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    text-align: left;
+    color: #a0abbf;
+    line-height: 60px;
+    letter-spacing: 1px;
+    padding-left: 60px;
+    _width: 86px;
+}
+.leftNav .nav li a .leftNavIcon {
+    /*display: inline-block;*/
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 35px;
+    margin-top: 19px;
+}
+.leftNav .nav li:nth-child(1) .leftNavIcon{
+    background: url("../img/index/home.png") no-repeat;
+}
+.leftNav .nav li:nth-child(2) .leftNavIcon{
+    background: url("../img/index/order.png") no-repeat;
+}
+.leftNav .nav li:nth-child(3) .leftNavIcon{
+    background: url("../img/index/inventory.png") no-repeat;
+}
+.leftNav .nav li:nth-child(4) .leftNavIcon{
+    background: url("../img/index/drug.png") no-repeat;
+}
+.leftNav .nav li:nth-child(5) .leftNavIcon{
+    background: url("../img/index/account.png") no-repeat;
+}
+.leftNav .nav li:nth-child(6) .leftNavIcon{
+    background: url("../img/index/agent.png") no-repeat;
+}
+.leftNav .nav li:nth-child(7) .leftNavIcon{
+    background: url("../img/index/store.png") no-repeat;
+}
+.leftNav .nav li a .leftNavTangle {
+    display: inline-block;
+    /*float: right;*/
+    width: 10px;
+    height: 5px;
+    background: url("../img/index/down arrow.png") no-repeat;
+    margin: 29px 0 0 50px;
+    padding: 0;
+}
+.leftNav .nav li .left-index{
+    text-align: left;
+    padding-left: 60px;
+    _width: 86px;
+}
+.leftNav .nav li .left-index .leftNavTangle{
+    margin-left: 80px;
+}
+
+
+/*右侧导航栏和内容区样式*/
+.right {
+    background-color: cadetblue;
+    height: 100%;
+    width: 86%;
+    _width: 83%;
+    float: left;
+}
+.right .rightNav{
+    width: 100%;
+    height: 18px;
+    background: #ffffff;
+    padding: 33px 30px 37px 30px;
+}
+.right .rightNav .shopInfo .blueIcon{
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-right: 14px;
+    margin-top: -3px;
+    background: url("../img/index/hospital.png");
+}
+.right .rightNav .pharmacyName{
+    width: 96px;
+    height: 18px;
+    font-size: 18px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: bold;
+    text-align: left;
+    color: #487cf7;
+    letter-spacing: 1px;
+}
+.right .rightNav .shopInfo{
+    margin-left: 20px;
+}
+.right .rightNav .controlBoard .smallIcon{
+    float: left;
+    width: 19px;
+    height: 19px;
+    margin-right: 12px;
+    margin-top: -2px;
+}
+.right .rightNav .controlBoard div:nth-child(1) .smallIcon{
+    background: url("../img/index/me.png") no-repeat;
+}
+.right .rightNav .controlBoard div:nth-child(2) .smallIcon{
+    background: url("../img/index/date.png") no-repeat;
+}
+.right .rightNav .controlBoard{
+    float: right;
+    margin-right: 60px;
+}
+.fontIntroduce{
+    margin-left: 20px;
+}
+.right .rightNav .controlBoard .adminAccount,
+.right .rightNav .controlBoard .joinDate,
+.right .rightNav .controlBoard .changepwd,
+.right .rightNav .controlBoard .logout{
+    float: left;
+    margin-left: 15px;
+}
+.right .rightNav .controlBoard .adminAccount,
+.right .rightNav .controlBoard .joinDate{
+    margin-top: 8px;
+}
+.right .content {
+    background-color: rgb(238,238,238);
+    width: 100%;
+    height: 961px;
+    padding: 31px 0 0 20px;
+}
+
+/*公共部分样式*/
+.icon{
+    margin-right: 10px;
+}
+.wh{
+    width: 300px;
+    height: 120px;
+    border-radius: 5px;
+    margin-left: 30px;
+    position: relative;
+}
+.btn{
+    width: 100px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #ccd2de;
+    border-radius: 16px;
+}
+.accountInfo{
+    width: 100px;
+    height: 15px;
+    font-size: 14px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+    letter-spacing: 1px;
+}
+.accountPrefix{
+    font-weight: bold;
+}
