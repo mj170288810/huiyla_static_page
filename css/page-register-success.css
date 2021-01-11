@@ -65,7 +65,6 @@ body {
     z-index: 4;
 }
 .content .baseInfoInput .baseInfoInputHeader .baseInfoInputHeaderUl li:nth-child(2) {
-    background: url("../img/register/element.png") no-repeat 12px 0;
     top: 0;
     left: 100px;
     z-index: 3;
@@ -76,61 +75,35 @@ body {
     z-index: 2;
 }
 .content .baseInfoInput .baseInfoInputHeader .baseInfoInputHeaderUl li:nth-child(4) {
+    background: url("../img/register/element.png") no-repeat 12px 0;
     top: 0;
     left: 275px;
     z-index: 1;
 }
-.content .baseInfoInput .firstRowQualificationPics{
+
+
+.content .baseInfoInput .successPic{
     clear: both;
-    margin: 93px 0 40px 228px;
-    width: 500px;
-    height: 210px;
+    /*margin: 93px 0 0px 228px;*/
+    margin: 93px auto 20px auto;
+    width: 176px;
+    height:177px;
+    background: url("../img/register/element_2.png") no-repeat;
 }
-.content .baseInfoInput .secondRowQualificationPics{
+
+.content .baseInfoInput .thirdRowButton{
     clear: both;
-    margin: 0 0 40px 228px;
-    width: 700px;
-    height: 210px;
+    margin-left: 510px;
 }
-.content .baseInfoInput .thirdRowQualificationButton{
-    margin-left: 402px;
-}
-.content .baseInfoInput .addIconButton {
-    height: 180px;
-    width: 180px;
-    background: #e7e7e7 url("../img/register/add.png") no-repeat;
-}
-.content .baseInfoInput .addIconButton a {
-    float: left;
-    width: 100%;
-    height: 100%;
-}
-.content .baseInfoInput .fontShow{
-    margin-bottom: 13px;
-    font-size: 16px;
-    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
-    font-weight: 400;
-    text-align: left;
-    color: #6d6d6d;
-}
-.content .baseInfoInput .firstRowQualificationPics div,
-.content .baseInfoInput .secondRowQualificationPics div{
-    width: 180px;
-    float: left;
-    margin-right: 35px;
-}
-.content .baseInfoInput .secondRowQualificationPics{
-    margin-bottom: 100px;
-}
-.content .baseInfoInput .thirdRowQualificationButton div {
+
+.content .baseInfoInput .thirdRowButton div {
     width: 200px;
     height: 50px;
-    /*background-color: #e54b3f;*/
     float: left;
     margin-right: 20px;
 }
 
-.content .baseInfoInput .thirdRowQualificationButton a{
+.content .baseInfoInput .thirdRowButton a{
     float: left;
     width: 100%;
     height: 100%;
@@ -140,20 +113,63 @@ body {
     font-size: 20px;
     font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
     font-weight: 400;
-    letter-spacing: 11px;
+    /*letter-spacing: 11px;*/
 }
-.content .baseInfoInput .thirdRowQualificationButton .prev a{
+.content .baseInfoInput .thirdRowButton .backToIndex a{
     border: 1px solid #487cf7;
     border-radius: 5px;
     color: #96b2f3;
 }
-.content .baseInfoInput .thirdRowQualificationButton .next a,
-.content .baseInfoInput .thirdRowQualificationButton div a:hover{
+.content .baseInfoInput .thirdRowButton .backToIndex a,
+.content .baseInfoInput .thirdRowButton div a:hover{
     background: linear-gradient(-90deg,#415bf6 0%, #6073f6 100%);
     border-radius: 5px;
     color: white;
 }
-
+.content .baseInfoInput .baseInfoInputContentUlSpan{
+    float: left;
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    text-align: justify-all;
+    line-height: 40px;
+    color: #333333;
+}
+.content .baseInfoInput .firstRowFont{
+    clear: both;
+    margin: 0 0 0px 255px;
+    width: 714px;
+    height:40px;
+    /*background-color: #5f8dff;*/
+    text-align:center;
+    font-size: 18px;
+    font-family: "Source Han Sans CN Bold", "Source Han Sans CN Bold-Bold";
+    font-weight: 700;
+    color: #333333;
+}
+.content .baseInfoInput .secondRowFont{
+    clear: both;
+    margin: 0 0 30px 255px;
+    width: 714px;
+    height:40px;
+    /*background-color: blue;*/
+    text-align:center;
+    font-size: 14px;
+    font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+    font-weight: 400;
+    color: #333333;
+}
+.content .baseInfoInput .baseInfoInputContentUlInput{
+    width: 600px;
+    height: 40px;
+    padding: 0 10px;
+    overflow: auto;
+    _background-attachment: fixed;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+}
 
 .footer{
     width: 100%;
