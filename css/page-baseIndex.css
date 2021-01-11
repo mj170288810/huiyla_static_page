@@ -333,7 +333,7 @@ hr{
 }
 .right .content .contentBottom .bottomTable {
     text-align: center;
-    border: 1px blue solid;
+    /*border: 1px blue solid;*/
     width: 100%;
 }
 .right .content .contentBottom .bottomTable thead tr {
@@ -348,7 +348,7 @@ hr{
     font-weight: bold;
     color: #333333;
     line-height: 50px;
-    border: 1px blue solid;
+    /*border: 1px blue solid;*/
 }
 .right .content .contentBottom .bottomTable tbody tr td{
     width: 11.14%;
@@ -358,7 +358,7 @@ hr{
     font-weight: 400;
     color: #333333;
     line-height: 50px;
-    border: 1px blue solid;
+    /*border: 1px blue solid;*/
     font-size: 14px;
     font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
     color: #333333;
@@ -444,7 +444,7 @@ hr{
     height: 38px;
     background: url("../img/common/left.png") no-repeat center center;
     position: absolute;
-    left: -58px;
+    left: -60px;
     top: -11px;
     border: none;
     cursor: pointer;
@@ -453,17 +453,18 @@ hr{
 .right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird {
     position: absolute;
     width: 26px;
-    height: 33px;
+    height: 35px;
     left: 50px;
-    top: -10.5px;
+    top: -11px;
     border: none;
+    z-index: 100;
 }
 .right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond {
     width: 42px;
     height: 38px;
     background: url("../img/common/right.png") no-repeat center center;
     position: absolute;
-    left: 82px;
+    left: 78px;
     top: -11px;
     border: none;
     cursor: pointer;
