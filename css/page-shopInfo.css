@@ -200,11 +200,7 @@ body {
     background-color: rgb(242,246,254);
     line-height: 60px;
 }
-.right .content .contentMiddle{
-    margin-top: 15px;
-    height: 812px;
-    width: 1530px;
-}
+
 .right .content .contentTop .contentTopInfo .col{
     float: left;
     margin-right: 10px;
@@ -241,6 +237,11 @@ body {
     top:35px;
     left: 1000px;
 }
+.right .content .contentMiddle{
+    margin-top: 15px;
+    height: 760px;
+    width: 1530px;
+}
 .right .content .contentMiddle .contentMiddlePics{
     width: 100%;
     height: 100%;
@@ -257,11 +258,11 @@ body {
     margin-left: 50px;
 }
 .right .contentBottom {
-    clear: both;
+    /*clear: both;*/
     width: 1530px;
     height: 56px;
     /*background-color: #e54b3f;*/
-    margin-top: 20px;
+    margin-top: 60px;
     padding-top: 80px;
 }
 /*公共部分样式*/
@@ -335,6 +336,7 @@ body {
     cursor: pointer;
 }
 .orderQueryBtnRed{
+    clear: both;
     width: 100px;
     height: 40px;
     background: #f7423f;
