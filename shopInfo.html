@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="css/page-index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/page-shopInfo.css"/>
     <!-- Bootstrap -->
 <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">-->
     <title>B端首页</title>
@@ -42,72 +42,89 @@
             <div class="shopInfo"><span class="blueIcon"></span><span class="pharmacyName">银杏大药房</span></div>
         </div>
         <div class="content clearFix">
-            <div class="rightContentTop clearFix">
-                <div class="fontIntroduce">
-                    <span class="jianjie">销售数据概况</span>
-                    <button class="deepBlueBtn">创建订单</button>
+            <div class="contentTop">
+                <div class="contentTopHeader">
+                    <div class="header">
+                        <span class="pureFontDescribe">基本信息</span>
+                        <button class="orderQueryBtn">信息变更</button>
+                    </div>
                 </div>
-                        <div class="dataShow clearFix">
-                            <div class="firstRowData">
-                        <div class="first wh">
-                            <div class="totalAmount"><span>2560.0</span></div>
-                            <div class="fontInstruction"><span>今日实收金额/元</span></div>
-                            <div class="BigPic"><img src="" alt=""></div>
-                        </div>
-                        <div class="second wh">
-                            <div class="totalAmount"><span>2560</span></div>
-                            <div class="fontInstruction"><span>今日创建单数</span></div>
-                            <div class="BigPic"><img src="" alt=""></div>
-                        </div>
-                        <div class="third wh">
-                            <div class="totalAmount"><span>2560</span></div>
-                            <div class="fontInstruction"><span>今日成交单数</span></div>
-                            <div class="BigPic"><img src="" alt=""></div>
-                        </div>
+                <div class="contentTopInfo">
+                    <div class="firstCol col">
+                        <div><span>营业执照：银杏大药房</span></div>
+                        <div><span>法         人：李国鹏</span></div>
+                        <div><span>店铺描述：银杏大药房</span></div>
                     </div>
-                    <div class="secondRowData">
-                        <div class="first wh">
-                            <div class="totalAmount"><span>2560.0</span></div>
-                            <div class="fontInstruction"><span>昨日实收金额/元</span></div>
-                        </div>
-                        <div class="second wh">
-                            <div class="totalAmount"><span>2560</span></div>
-                            <div class="fontInstruction"><span>昨日创建单数</span></div>
-                        </div>
-                        <div class="third wh">
-
-                            <div class="totalAmount"><span>2560</span></div>
-                            <div class="fontInstruction"><span>昨日成交单数</span></div>
-                        </div>
+                    <div class="secondCol col">
+                        <div><span>店铺名称：银杏大药房</span></div>
+                        <div><span>联系人：李国鹏</span></div>
                     </div>
-                    <div class="showDetail">
-                        <button class="blueBtn">详情数据</button>
+                    <div class="thirdCol col">
+                        <div><span>店铺性质：银杏大药房</span></div>
+                        <div><span>联系电话：1875643589</span></div>
+                    </div>
+                    <div class="fourthCol col">
+                        <div><span>经验地址：成都市成华区二仙桥89号</span></div>
+                        <div><span>邮箱地址：1875643589@qq.com</span></div>
                     </div>
                 </div>
             </div>
-            <div class="rightContentBottom clearFix">
-                <div class="fontIntroduce">
-                    <span class="jianjie">药品数据概况</span>
+            <div class="contentMiddle">
+                <div class="contentMiddleHeader">
+                    <span class="pureFontDescribe">资质照片</span>
+                    <button class="orderQueryBtn">信息变更</button>
                 </div>
-                <div class="dataShow">
-                    <div class="firstRowData">
-                        <div class="first wh">
-                            <div class="totalAmountBottom"><span>86524</span></div>
-                            <div class="fontInstructionBottom"><span class="iconBottom"></span><span class="fontInstructionSpan">库存药品种类</span></div>
+                <div class="contentMiddlePics">
+                    <div class="firstRowPics">
+                        <div class="first outerImgDiv">
+                            <span class="fontIntroduceDescribe">法人身份证正面</span>
+                            <div class="imgDiv"></div>
                         </div>
-                        <div class="second wh">
-                            <div class="totalAmountBottom"><span>86524</span></div>
-                            <div class="fontInstructionBottom"><span class="iconBottom"></span><span class="fontInstructionSpan">低预警药品种类</span></div>
+                        <div class="second outerImgDiv">
+                            <span class="fontIntroduceDescribe">法人身份证背面</span>
+                            <div class="imgDiv"></div>
                         </div>
-                        <div class="third wh">
-                            <div class="totalAmountBottom"><span>86524</span></div>
-                            <div class="fontInstructionBottom"><span class="iconBottom"></span><span class="fontInstructionSpan">高预警药品种类</span></div>
+                        <div class="third outerImgDiv">
+                            <span class="fontIntroduceDescribe">联系人身份证正面</span>
+                            <div class="imgDiv"></div>
+                        </div>
+                        <div class="fourth outerImgDiv">
+                            <span class="fontIntroduceDescribe">联系人身份证反面</span>
+                            <div class="imgDiv"></div>
                         </div>
                     </div>
-                    <div class="showDetail">
-                        <button class="blueBtn">详情数据</button>
+                    <div class="secondRowPics">
+                        <div class="first outerImgDiv">
+                            <span class="fontIntroduceDescribe">营业执照</span>
+                            <div class="imgDiv"></div>
+                        </div>
+                        <div class="second outerImgDiv">
+                            <span class="fontIntroduceDescribe">药品经营许可证</span>
+                            <div class="imgDiv"></div>
+                        </div>
+                        <div class="third outerImgDiv">
+                            <span class="fontIntroduceDescribe">药品经营质量管理规范</span>
+                            <div class="imgDiv"></div>
+                        </div>
+                        <div class="fourth outerImgDiv">
+                            <span class="fontIntroduceDescribe">食品经营许可证</span>
+                            <div class="imgDiv"></div>
+                        </div>
+                    </div>
+                    <div class="thirdRowPics">
+                        <div class="first outerImgDiv">
+                            <span class="fontIntroduceDescribe">器械经营资质</span>
+                            <div class="imgDiv"></div>
+                        </div>
+                        <div class="second outerImgDiv">
+                            <span class="fontIntroduceDescribe">其他资质</span>
+                            <div class="imgDiv"></div>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="contentBottom">
+                <button class="orderQueryBtnRed">变更</button>
             </div>
         </div>
     </div>
