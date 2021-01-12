@@ -29,7 +29,7 @@ body {
 
 .left .leftNav{
     width: 100%;
-    height: 1224px;
+    height: 940px;
     background: #424651;
 }
 .leftNav .nav {
@@ -179,56 +179,23 @@ body {
 .right .content {
     background-color: rgb(238,238,238);
     width: 100%;
-    height: 1204px;
-    padding: 21px 0 0 40px;
+    height: 940px;
+    padding: 0px 0 0 40px;
 }
 
-.right  .content .contentTop {
-    width: 1530px;
-    *width : 1625px;
-    height: 230px;
-    background-color: #fff;
-}
 
 .right  .content .contentMiddle {
     width: 1530px;
-    height: 118px;
-    margin: 20px 0 20px 0px;
+    height: 80px;
+    margin: 0px 0 0px 0px;
     /*background-color: #e7e7e7;*/
 }
 .right  .content .contentBottom {
     width: 1510px;
-    height: 778px;
+    height: 820px;
     background-color: #e7e7e7;
 }
-.right  .content .contentTop .firstRow .btnDiv {
-    float: left;
-    width: 80px;
-    height: 31px;
-    margin-right: 8px;
-    margin-top: 31px;
-}
-.right  .content .contentTop .firstRow .btnDiv:first-child{
-    margin-left: 16px;
-}
-.right  .content .contentTop .firstRow .btnDiv:last-child{
-    margin-right: 30px;
-}
-.right  .content .contentTop .firstRow .dateFilter {
-    margin-top: 24px;
-    margin-left: 20px;
-    float: left;
-    width: 600px;
-    height: 40px;
-    /*background-color: #e54b3f;*/
-}
-.right  .content .contentTop .firstRow .dateFilter .fontDescribe{
-    font-size: 14px;
-    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
-    font-weight: 400;
-    color: #565656;
-    margin-right: 10px;
-}
+
 .right .content .inputWh{
     width: 160px;
     height: 39px;
@@ -260,68 +227,35 @@ hr{
     color: #b5b5b5;
     margin: 0 4px;
 }
-.right  .content .contentTop .secondRow {
-    padding-top: 35px;
-    clear: both;
-}
-.right  .content .contentTop .secondRow .first{
-    float: left;
-    background: url("../img/index/orderInfo/clinch a deal.png") no-repeat;
-}
-.right  .content .contentTop .secondRow .second{
-    float: left;
-    margin-left: -80px;
-    background: url("../img/index/orderInfo/clinch a deal_1.png") no-repeat;
-}
 
-.right .content .contentTop .secondRow .totalAmount,
-.right .content .contentTop .secondRow .fontInstruction{
-    position: absolute;
-}
-.right .content .contentTop .secondRow .totalAmount{
-    left: 34px;
-    top: 18px;
-    font-size: 26px;
-    font-family: "Source Han Sans CN Bold", "Source Han Sans CN Bold-Bold";
-    font-weight: 700;
-    text-align: left;
-    color: #ffffff;
-}
-.right .content .contentTop .secondRow .fontInstruction{
-    left: 34px;
-    top: 64px;
-    font-size: 14px;
-    font-family: "Source Han Sans CN Bold", "Source Han Sans CN Bold-Bold";
-    font-weight: 400;
-    text-align: left;
-    color: #ffffff;
-}
 .right .content .contentMiddle{
     padding-top: 30px;
     padding-left: 20px;
 }
 .right .content .contentMiddle .contentMiddleNextDiv{
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
 }
-.right .content .contentMiddle .contentMiddleSecondRow{
-    clear: both;
+.right .content .contentMiddle .contentMiddleNextDivSelect{
+    margin-left: 5px;
+    margin-top: 2px;
 }
-.right .content .contentMiddle .contentMiddleSecondRow .btnDiv{
+
+.right .content .contentMiddle .contentMiddleFirstRow .contentMiddleSecondRow .btnDiv{
     float: left;
     width: 80px;
     height: 31px;
     margin-right: 30px;
-    margin-top: 31px;
+    margin-top: 1px;
 }
-.right .content .contentMiddle .contentMiddleSecondRow .btnDiv .queryInput {
+.right .content .contentMiddle .contentMiddleFirstRow .contentMiddleSecondRow .btnDiv .queryInput {
     width: 100px;
     height: 40px;
     background: #487cf7;
     border-radius: 3px;
     border: none;
 }
-.right .content .contentMiddle .contentMiddleSecondRow .btnDiv .resetInput {
+.right .content .contentMiddle .contentMiddleFirstRow .contentMiddleSecondRow .btnDiv .resetInput {
     width: 100px;
     height: 40px;
     background: #f7423f;
@@ -337,32 +271,64 @@ hr{
     width: 100%;
 }
 .right .content .contentBottom .bottomTable thead tr {
-    height: 50px;
+    height: 55px;
 }
 .right .content .contentBottom .bottomTable thead tr td{
-    width: 11.14%;
     text-align: center;
     font-size: 12px;
     height: 100%;
     font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
     font-weight: bold;
     color: #333333;
-    line-height: 50px;
+    line-height: 55px;
     /*border: 1px blue solid;*/
 }
 .right .content .contentBottom .bottomTable tbody tr td{
-    width: 11.14%;
     text-align: center;
     height: 100%;
     font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
     font-weight: 400;
     color: #333333;
-    line-height: 50px;
+    line-height: 55px;
     /*border: 1px blue solid;*/
     font-size: 14px;
     font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
     color: #333333;
 }
+.right .content .contentBottom .bottomTable  tr td:nth-child(1){
+    width: 9.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(2){
+    width: 9.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(3){
+    width: 13.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(4){
+    width: 13.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(5){
+    width: 9.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(6){
+    width: 9.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(7){
+    width: 9.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(8){
+    width: 7.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(9){
+    width: 6.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(10){
+    width: 6.09%;
+}
+.right .content .contentBottom .bottomTable  tr td:nth-child(11){
+    width: 9.09%;
+}
+
 .right .content .contentBottom .bottomTable tbody tr:hover,
 .right .content .contentBottom .bottomTable thead tr:hover{
     background-color: #a6a8f0;

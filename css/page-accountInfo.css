@@ -304,6 +304,9 @@ hr{
     float: left;
     margin-right: 20px;
 }
+.right .content .contentMiddle .contentMiddleNextDivSelect{
+    margin-left: 60px;
+}
 .right .content .contentMiddle .contentMiddleSecondRow{
     clear: both;
 }
@@ -340,7 +343,6 @@ hr{
     height: 50px;
 }
 .right .content .contentBottom .bottomTable thead tr td{
-    width: 11.14%;
     text-align: center;
     font-size: 12px;
     height: 100%;
@@ -351,7 +353,6 @@ hr{
     /*border: 1px blue solid;*/
 }
 .right .content .contentBottom .bottomTable tbody tr td{
-    width: 11.14%;
     text-align: center;
     height: 100%;
     font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
@@ -362,6 +363,37 @@ hr{
     font-size: 14px;
     font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
     color: #333333;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(1){
+    width: 11.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(2){
+    width: 11.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(3){
+    width: 11.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(4){
+    width: 7.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(5){
+    width: 7.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(6){
+    width: 11.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(7){
+    width: 11.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(8){
+    width: 8.14%;
+}
+.right .content .contentBottom .bottomTable tr td:nth-child(9){
+    width: 22.14%;
+}
+.right .content .contentBottom .bottomTable tbody tr .lastTd{
+    font-size: 12px;
+    line-height: 50px;
 }
 .right .content .contentBottom .bottomTable tbody tr:hover,
 .right .content .contentBottom .bottomTable thead tr:hover{
