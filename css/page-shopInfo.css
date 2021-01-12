@@ -334,6 +334,7 @@ body {
     color: #487cf7;
     margin-left: 20px;
     cursor: pointer;
+    line-height: 36px;
 }
 .orderQueryBtnRed{
     clear: both;

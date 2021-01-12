@@ -57,3 +57,6 @@ table {
 .clearFix{
 	zoom: 1;
 }
+button{
+	cursor: pointer;
+}
