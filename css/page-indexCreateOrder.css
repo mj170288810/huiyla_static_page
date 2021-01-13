@@ -18,6 +18,9 @@ body {
 .hiddenModule{
     /*display: none;*/
 }
+.hiddenModuleSecond{
+    display: none;
+}
 .smallModule{
     width: 1200px;
     height:924px;
@@ -29,6 +32,25 @@ body {
     margin: 0 auto;
     overflow: auto;
 }
+.smallModule .selectDrugFrame {
+    width: 948px;
+    height: 525px;
+    background-color:white;
+    position: absolute;
+    left: 127px;
+    top:277px;
+    z-index: 20000;
+    padding: 23px 18px 0 18px;
+    border: 3px solid #a0abbf;
+}
+.smallModule .selectDrugFrame .tableMemmberInfoContent {
+    width: 100%;
+    height: 325px;
+}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable{
+    position: relative;
+}
+
 .smallModule .memmberInfo {
     width: 100%;
     height: 151px;
@@ -75,8 +97,8 @@ body {
 }
 .smallModule .goodsInfo {
     width: 100%;
-    height: 469px;
-    background-color: #a6a8f0;
+    /*height: 469px;*/
+    /*background-color: #a6a8f0;*/
 }
 .smallModule .goodsInfo .goodsInfoHeader{
     width: 100%;
@@ -85,7 +107,7 @@ body {
 }
 .smallModule .goodsInfo .goodsInfoContent{
     width: 100%;
-    height:409px;
+    /*height:900px;*/
     background-color: white;
     position: relative;
 }
@@ -96,25 +118,34 @@ body {
 }
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent {
     width: 1099px;
-    height: 228px;
-    /*background-color: #96b2f3;*/
-    overflow: auto;
+    /*height: 228px;*/
 }
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable{
     width: 100%;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination {
     width: 1099px;
-    height: 90px;
-    /*background-color: #96b2f3;*/
-    position: absolute;
-    left:60px;
-    top:322px;
+    height: 120px;
 }
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr {
+.smallModule .selectDrugFrame .footerPagination {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    left:0px;
+    top:480px;
+    z-index: 20000;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr
+{
     height: 50px;
 }
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr td{
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable thead tr
+{
+    height: 40px;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr td,
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable thead tr td
+{
     text-align: center;
     font-size: 12px;
     height: 100%;
@@ -122,8 +153,14 @@ body {
     font-weight: bold;
     color: #333333;
     line-height: 50px;
+    z-index: 20000;
 }
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td{
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable thead tr td{
+    line-height: 40px;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td,
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td
+{
     text-align: center;
     height: 100%;
     font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
@@ -134,6 +171,9 @@ body {
     font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
     color: #333333;
 }
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td{
+    line-height: 40px;
+}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(1){width: 10.5%;}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(2){width: 14.5%;}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(3){width: 14.5%;}
@@ -141,11 +181,23 @@ body {
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(5){width: 9.5%;}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(6){width: 11.5%;}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(7){width: 9.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(8){width: 15.5%;position: relative;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(8){width: 15.5%;position: relative;z-index: 19999;}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:nth-child(odd){
     background-color: #ccd2de;
 }
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:hover{
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(1){width: 10.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(2){width: 14.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(3){width: 14.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(4){width: 14.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(5){width: 9.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(6){width: 11.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(7){width: 9.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(8){width: 15.5%;}
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tbody tr:nth-child(odd){
+    background-color: #ccd2de;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:hover,
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tbody tr:hover{
     background-color: #a6a8f0;
 }
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable .bottomTableDeleteBtn {
@@ -153,10 +205,14 @@ body {
     height: 26px;
     background: url("../img/common/delete.png") no-repeat center;
     border: none;
-    position: absolute;
-    left:110px;
-    top:10px;
-
+    position: relative;
+    left:20px;
+    top:7px;
+}
+@-moz-document url-prefix(){
+    .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable .bottomTableDeleteBtn{
+        top:-4px;
+    }
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirstZero{
     font-size: 14px;
@@ -164,8 +220,18 @@ body {
     font-weight: 500;
     color: #6d6d6d;
     position: absolute;
-    top: 50px;
-    left: 500px;
+    top: 30px;
+    left: 400px;
+}
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivFirstZero{
+    font-size: 14px;
+    font-family: Source Han Sans CN Medium, Source Han Sans CN Medium-Medium;
+    font-weight: 500;
+    color: #6d6d6d;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    z-index: 20000;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirst input{
     width: 60px;
@@ -176,6 +242,17 @@ body {
     top: 33px;
     left: 800px;
     z-index: 1;
+}
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivFirst input{
+    width: 60px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    left: 620px;
+    z-index: 1;
+    z-index: 20000;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirst .footerPaginationDivBtn{
     position: absolute;
@@ -190,7 +267,27 @@ body {
     text-align: center;
     color: #ffffff;
 }
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivFirst .footerPaginationDivBtn{
+    position: absolute;
+    top: 5px;
+    left: 700px;
+    background: #487cf7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    z-index: 20000;
+}
+.speialDiv{
+    position: relative;
+}
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
+    /*margin-left: 70px;*/
+}
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
     margin-left: 70px;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond{
@@ -201,17 +298,37 @@ body {
     height: 100%;
     width: 150px;
 }
-.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst {
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond{
+    position: absolute;
+    top: 5px;
+    left: 400px;
+    /*background-color: #282b33;*/
+    height: 100%;
+    width: 150px;
+    z-index: 20000;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
+    width: 42px;
+    height: 38px;
+    background: #fff url("../img/common/left.png") no-repeat center center;
+    position: absolute;
+    left: 440px;
+    top: 30px;
+    border: none;
+    cursor: pointer;
+}
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
     width: 42px;
     height: 38px;
     background: #fff url("../img/common/left.png") no-repeat center center;
     position: absolute;
     left: 370px;
-    top: 30px;
+    top: 0px;
     border: none;
     cursor: pointer;
+    z-index: 20000;
 }
-.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird {
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird{
     width: 26px;
     height: 35px;
     position: absolute;
@@ -222,7 +339,19 @@ body {
     text-align: center;
     background-color: #b5b5b5;
 }
-.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond {
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird{
+    width: 26px;
+    height: 35px;
+    position: absolute;
+    left: 480px;
+    top: 0px;
+    border: none;
+    z-index: 100;
+    text-align: center;
+    background-color: #b5b5b5;
+    z-index: 20000;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond{
     width: 42px;
     height: 38px;
     background: #fff url("../img/common/right.png") no-repeat center center;
@@ -232,16 +361,27 @@ body {
     border: none;
     cursor: pointer;
 }
-
+.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond{
+    width: 42px;
+    height: 38px;
+    background: #fff url("../img/common/right.png") no-repeat center center;
+    position: absolute;
+    left: 508px;
+    top: 0px;
+    border: none;
+    cursor: pointer;
+    z-index: 19999;
+}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent{
     position: absolute;
     left:60px;
     top:90px;
 }
 .smallModule .ordersInfo {
-    width: 100%;
+    width: 1182px;
     height: 304px;
-    /*background-color: #e54b3f;*/
+    position: relative;
+    left: -60px;
 }
 .smallModule .ordersInfo .ordersInfoHeader{
     width: 100%;
