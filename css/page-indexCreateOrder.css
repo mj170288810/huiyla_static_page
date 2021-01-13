@@ -5,8 +5,303 @@ body {
     /*height: 1080px;*/
     overflow: auto;
 }
+.bigTransparentModule {
+    width: 100%;
+    height:1160px;
+    background-color: #b5b5b5;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.hiddenModule{
+    /*display: none;*/
+}
+.smallModule{
+    width: 1200px;
+    height:924px;
+    background-color: white;
+    position: absolute;
+    top:173px;
+    left: 433px;
+    z-index: 200;
+    margin: 0 auto;
+    overflow: auto;
+}
+.smallModule .memmberInfo {
+    width: 100%;
+    height: 151px;
+    /*background-color: #5f8dff;*/
+}
+.smallModule .memmberInfo .memmberInfoHeader{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(241,245,255);
+    position: relative;
+}
+.smallModule .memmberInfo .memmberInfoHeader .bigDeleteX{
+    width: 22px;
+    height: 22px;
+    background: url("../img/common/bigDelete.png") no-repeat center;
+    position:absolute;
+    left: 1148px;
+    top:18px;
+    border: none;
+}
+.smallModule .memmberInfo .memmberInfoContent{
+    width: 100%;
+    height: 91px;
+    /*background-color: #b5b5b5;*/
+    position: relative;
+}
+.smallModule .memmberInfo .memmberInfoContent > div{
+    float: left;
+}
+.smallModule .memmberInfo .memmberInfoContent > div:nth-child(1){
+    position: absolute;
+    left:60px;
+    top:20px;
+}
+.smallModule .memmberInfo .memmberInfoContent > div:nth-child(2){
+    position: absolute;
+    left:400px;
+    top:20px;
+}
+.smallModule .memmberInfo .memmberInfoContent > div:nth-child(3){
+    position: absolute;
+    left:740px;
+    top:20px;
+}
+.smallModule .goodsInfo {
+    width: 100%;
+    height: 469px;
+    background-color: #a6a8f0;
+}
+.smallModule .goodsInfo .goodsInfoHeader{
+    width: 100%;
+    height:60px;
+    background-color:rgb(241,245,255);
+}
+.smallModule .goodsInfo .goodsInfoContent{
+    width: 100%;
+    height:409px;
+    background-color: white;
+    position: relative;
+}
+.smallModule .goodsInfo .goodsInfoContent .goodName{
+    position: absolute;
+    left:60px;
+    top:20px;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent {
+    width: 1099px;
+    height: 228px;
+    /*background-color: #96b2f3;*/
+    overflow: auto;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable{
+    width: 100%;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination {
+    width: 1099px;
+    height: 90px;
+    /*background-color: #96b2f3;*/
+    position: absolute;
+    left:60px;
+    top:322px;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr {
+    height: 50px;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr td{
+    text-align: center;
+    font-size: 12px;
+    height: 100%;
+    font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
+    font-weight: bold;
+    color: #333333;
+    line-height: 50px;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td{
+    text-align: center;
+    height: 100%;
+    font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
+    font-weight: 400;
+    color: #333333;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+    color: #333333;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(1){width: 10.5%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(2){width: 14.5%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(3){width: 14.5%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(4){width: 14.5%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(5){width: 9.5%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(6){width: 11.5%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(7){width: 9.5%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(8){width: 15.5%;position: relative;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:nth-child(odd){
+    background-color: #ccd2de;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:hover{
+    background-color: #a6a8f0;
+}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable .bottomTableDeleteBtn {
+    width: 26px;
+    height: 26px;
+    background: url("../img/common/delete.png") no-repeat center;
+    border: none;
+    position: absolute;
+    left:110px;
+    top:10px;
 
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirstZero{
+    font-size: 14px;
+    font-family: Source Han Sans CN Medium, Source Han Sans CN Medium-Medium;
+    font-weight: 500;
+    color: #6d6d6d;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirst input{
+    width: 60px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    position: absolute;
+    top: 33px;
+    left: 800px;
+    z-index: 1;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirst .footerPaginationDivBtn{
+    position: absolute;
+    top: 35px;
+    left: 880px;
+    background: #487cf7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
+    margin-left: 70px;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond{
+    position: absolute;
+    top: 5px;
+    left: 545px;
+    /*background-color: #282b33;*/
+    height: 100%;
+    width: 150px;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst {
+    width: 42px;
+    height: 38px;
+    background: #fff url("../img/common/left.png") no-repeat center center;
+    position: absolute;
+    left: 370px;
+    top: 30px;
+    border: none;
+    cursor: pointer;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird {
+    width: 26px;
+    height: 35px;
+    position: absolute;
+    left: 480px;
+    top: 30px;
+    border: none;
+    z-index: 100;
+    text-align: center;
+    background-color: #b5b5b5;
+}
+.smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond {
+    width: 42px;
+    height: 38px;
+    background: #fff url("../img/common/right.png") no-repeat center center;
+    position: absolute;
+    left: 508px;
+    top: 30px;
+    border: none;
+    cursor: pointer;
+}
 
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent{
+    position: absolute;
+    left:60px;
+    top:90px;
+}
+.smallModule .ordersInfo {
+    width: 100%;
+    height: 304px;
+    /*background-color: #e54b3f;*/
+}
+.smallModule .ordersInfo .ordersInfoHeader{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(241,245,255);
+}
+.smallModule .ordersInfo .ordersInfoContent{
+    width: 100%;
+    height: 244px;
+    /*background-color: #195bb4;*/
+    position: relative;
+}
+.smallModule .ordersInfo .ordersInfoContent .col {
+    float: left;
+    margin-right: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+}
+.smallModule .ordersInfo .ordersInfoContent .col:nth-child(1){
+    width:450px;
+    height: 50%;
+    margin-left: 50px;
+    position: absolute;
+    top:35px;
+    /*background-color: #e54b3f;*/
+}
+.smallModule .ordersInfo .ordersInfoContent .col:nth-child(2){
+    width: 300px;
+    height: 50%;
+    position: absolute;
+    top:35px;
+    left: 450px;
+    /*background-color: #282b33;*/
+}
+.smallModule .ordersInfo .ordersInfoContent .col:nth-child(3){
+    width: 200px;
+    height: 50%;
+    position: absolute;
+    top:35px;
+    left: 750px;
+    /*background-color: #a6a8f0;*/
+}
+.smallModule .ordersInfo .ordersInfoContent .sendBtn{
+    width: 100px;
+    height: 40px;
+    background: #487cf7;
+    border-radius: 3px;
+    border: none;
+    position: absolute;
+    top:175px;
+    left: 50px;
+    font-size: 14px;
+    font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
 /*左侧logo和导航栏样式*/
 .left{
     /*background-color: chartreuse;*/
@@ -389,4 +684,30 @@ body {
 }
 .accountPrefix{
     font-weight: bold;
+}
+.fontIntroduceCreaterOrder{
+    float: left;
+    height: 100%;
+    line-height: 60px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: Source Han Sans CN Bold, Source Han Sans CN Bold-Bold;
+    font-weight: 700;
+    color: #333333;
+}
+.fontMemmberInfoContent{
+    font-size: 14px;
+    font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #565656;
+    margin-right: 5px;
+}
+.inputMemmberInfoContent{
+    width: 160px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 16px 1px rgba(212,212,212,0.53);
+    border: 1px solid #b5b5b5;
 }
