@@ -47,12 +47,10 @@ body {
     width: 100%;
     height: 325px;
 }
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable{
-    width: 100%;
-    height: 325px;
+
+.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable .bottomTableBody{
+    position: relative;
 }
-
-
 
 .smallModule .memmberInfo {
     width: 100%;
