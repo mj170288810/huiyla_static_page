@@ -97,8 +97,8 @@ body {
 }
 .smallModule .goodsInfo {
     width: 100%;
-    height: 469px;
-    background-color: #a6a8f0;
+    /*height: 469px;*/
+    /*background-color: #a6a8f0;*/
 }
 .smallModule .goodsInfo .goodsInfoHeader{
     width: 100%;
@@ -107,7 +107,7 @@ body {
 }
 .smallModule .goodsInfo .goodsInfoContent{
     width: 100%;
-    height:409px;
+    /*height:900px;*/
     background-color: white;
     position: relative;
 }
@@ -118,25 +118,18 @@ body {
 }
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent {
     width: 1099px;
-    height: 228px;
-    /*background-color: #96b2f3;*/
-    overflow: auto;
+    /*height: 228px;*/
 }
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable{
     width: 100%;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination {
     width: 1099px;
-    height: 90px;
-    /*background-color: #96b2f3;*/
-    position: absolute;
-    left:60px;
-    top:322px;
+    height: 120px;
 }
 .smallModule .selectDrugFrame .footerPagination {
     width: 100%;
     height: 90px;
-    /*background-color: #195bb4;*/
     position: absolute;
     left:0px;
     top:480px;
@@ -212,9 +205,14 @@ body {
     height: 26px;
     background: url("../img/common/delete.png") no-repeat center;
     border: none;
-    position: absolute;
-    left:110px;
-    top:10px;
+    position: relative;
+    left:20px;
+    top:7px;
+}
+@-moz-document url-prefix(){
+    .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable .bottomTableDeleteBtn{
+        top:-4px;
+    }
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirstZero{
     font-size: 14px;
@@ -222,8 +220,8 @@ body {
     font-weight: 500;
     color: #6d6d6d;
     position: absolute;
-    top: 50px;
-    left: 500px;
+    top: 30px;
+    left: 400px;
 }
 .smallModule .selectDrugFrame .footerPagination .footerPaginationDivFirstZero{
     font-size: 14px;
@@ -283,8 +281,11 @@ body {
     color: #ffffff;
     z-index: 20000;
 }
+.speialDiv{
+    position: relative;
+}
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
-    margin-left: 70px;
+    /*margin-left: 70px;*/
 }
 .smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
     margin-left: 70px;
@@ -311,7 +312,7 @@ body {
     height: 38px;
     background: #fff url("../img/common/left.png") no-repeat center center;
     position: absolute;
-    left: 370px;
+    left: 440px;
     top: 30px;
     border: none;
     cursor: pointer;
@@ -377,9 +378,10 @@ body {
     top:90px;
 }
 .smallModule .ordersInfo {
-    width: 100%;
+    width: 1182px;
     height: 304px;
-    /*background-color: #e54b3f;*/
+    position: relative;
+    left: -60px;
 }
 .smallModule .ordersInfo .ordersInfoHeader{
     width: 100%;
