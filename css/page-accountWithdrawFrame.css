@@ -25,7 +25,7 @@ body {
     display: none;
 }
 .withdrawFrameHiddenModule{
-    display: none;
+    /*display: none;*/
 }
 .fontIntroduceCreaterOrder{
     float: left;

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/page-pharchaseDrugQueryOrderPayMoney.css"/>
+    <!-- Bootstrap -->
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <title>B端首页</title>
+</head>
+<body>
+<!--左侧开始-->
+<div class="left clearFix w">
+    <div class="logo"><a href="#"><img src="./img/index/logo.png" alt=""></a></div>
+    <div class="leftNav">
+        <ul class="nav clearFix">
+            <li><a href="#" class="left-index"><span class="leftNavIcon"></span><span>首页</span><span class="leftNavTangle"></span></a></li>
+            <li><a href="#"><span class="leftNavIcon"></span><span>订单信息</span><span class="leftNavTangle"></span></a></li>
+            <li><a href="#"><span class="leftNavIcon"></span><span>库存药品</span><span class="leftNavTangle"></span></a></li>
+            <li class="highLights"><a href="#"><span class="leftNavIcon"></span><span>采购药品</span><span class="leftNavTangle"></span></a></li>
+            <li><a href="#"><span class="leftNavIcon"></span><span>账户提现</span><span class="leftNavTangle"></span></a></li>
+            <li><a href="#"><span class="leftNavIcon"></span><span>账户信息</span><span class="leftNavTangle"></span></a></li>
+            <li><a href="#"><span class="leftNavIcon"></span><span>店铺信息</span><span class="leftNavTangle"></span></a></li>
+        </ul>
+    </div>
+</div>
+<!--左侧结束-->
+
+<!--右侧开始-->
+<div class="right clearFix w">
+    <div class="rightNav clearFix">
+        <div class="controlBoard clearFix">
+            <div class="adminAccount"><span class="smallIcon"></span><span class="accountInfo"><span class="accountPrefix">账户名：</span><span>254336</span></span></div>
+            <div class="joinDate"><span class="smallIcon"></span><span class="accountInfo"><span class="accountPrefix">入驻日期：</span><span>2020-12-12</span></span></div>
+            <div class="changepwd">
+                <button class="btn">修改密码</button>
+            </div>
+            <div class="logout">
+                <button class="btn">退出登录</button>
+            </div>
+        </div>
+        <div class="shopInfo"><span class="blueIcon"></span><span class="pharmacyName">银杏大药房</span></div>
+    </div>
+    <div class="content clearFix">
+        <div class="contentTop clearFix">
+            <button class="orderQueryBtn">订单查询</button>
+        </div>
+        <div class="contentMiddle clearFix">
+            <form action="#">
+                <div class="contentMiddleFirstRow">
+                    <div class="orderDate contentMiddleNextDiv">
+                        <span class="fontDescribe">商品名称:</span>
+                        <input type="text" class="inputWh" placeholder="请输入商品名称">
+                    </div>
+                    <div class="contentMiddleNextDiv">
+                        <span class="fontDescribe">批准文号:</span>
+                        <input type="text" class="inputWh" placeholder="请输入批准文号">
+                    </div>
+                    <div class="contentMiddleNextDiv contentMiddleNextDivSelect">
+                        <select name="" class="selectWh selectCategory">
+                            <option value="">药品类别</option>
+                            <option value="nomal">正常</option>
+                            <option value="freeze">冻结</option>
+                        </select>
+                    </div>
+                    <div class="contentMiddleNextDiv contentMiddleSecondRow contentMiddleNextDivSelect">
+                        <div class="btnDiv">
+                            <input type="button" value="查询" class="queryInput">
+                        </div>
+                        <div class="btnDiv">
+                            <input type="reset" value="重置" class="resetInput">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="contentBottom">
+            <table class="bottomTable">
+                <thead>
+                <tr>
+                    <td>序号</td>
+                    <td>药品名称</td>
+                    <td>生产厂家</td>
+                    <td>批准文号</td>
+                    <td>药品类型</td>
+                    <td>药品规格</td>
+                    <td>包装规格</td>
+                    <td>采购价格</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>
+                        <input type="checkbox">
+                        <span>1</span>
+                    </td>
+                    <td>阿莫西林胶囊</td>
+                    <td>深圳高卓药业有限公司</td>
+                    <td>国药准字H31020363</td>
+                    <td>西药</td>
+                    <td>0.25g</td>
+                    <td>0.25g*24粒/盒</td>
+                    <td>10.00元/盒</td>
+                    <td>
+                        <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                        <span>盒</span>
+                        <input type="button" value="详情" class="tableInputButton">
+                    </td>
+                </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <span>1</span>
+                        </td>
+                        <td>阿莫西林胶囊</td>
+                        <td>深圳高卓药业有限公司</td>
+                        <td>国药准字H31020363</td>
+                        <td>西药</td>
+                        <td>0.25g</td>
+                        <td>0.25g*24粒/盒</td>
+                        <td>10.00元/盒</td>
+                        <td>
+                            <input type="text" value="" class="tableInputText" placeholder="采购数量">
+                            <span>盒</span>
+                            <input type="button" value="详情" class="tableInputButton">
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="9">
+                        <div class="footerPagination">
+                            <div class="footerPaginationDiv"><span>当前显示 1 到10条，共 32条记录、4页</span></div>
+                            <div class="footerPaginationDiv footerPaginationDivFirst"><input type="text"></div>
+                            <div class="footerPaginationDiv footerPaginationDivFirst"><input type="button" class="footerPaginationDivBtn" value="跳转"></div>
+                            <div class="footerPaginationDiv footerPaginationDivSecond">
+                                <input type="button" class="footerPaginationDivSecondInputFirst">
+                                <input type="text" class="footerPaginationDivSecondInputThird" value="1" readonly>
+                                <input type="button" class="footerPaginationDivSecondInputSecond">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="rightFooter clearFix">
+            <div class="header">
+                <span>基本信息</span>
+            </div>
+            <div class="footerMiddle">
+                <div class="firstCol col">
+                    <div><span>订单编号：52623203103203</span></div>
+                    <div><span>药品种类：1</span></div>
+                    <div><span>打款账户名：四川汇医联医药科技有限公司</span></div>
+                </div>
+                <div class="secondCol col">
+                    <div><span>创建时间：2021/1/1 14:38:23</span></div>
+                    <div><span>药品数量：2</span></div>
+                    <div><span>打款账户号:26126263262</span></div>
+                </div>
+                <div class="thirdCol col">
+                    <div><span>合计金额：233.00</span></div>
+                    <div><span>所属银行：中信银行</span></div>
+                </div>
+                <div class="fourthCol col">
+                    <div><span>财务姓名：王会计</span></div>
+                </div>
+                <div class="fifthCol col">
+                    <div><span>财务电话：18756458945</span></div>
+                </div>
+            </div>
+            <div class="footerBtn clearFix">
+                <div class="btnDiv">
+                    <input type="button" value="确认" class="queryInput">
+                </div>
+                <div class="btnDiv">
+                    <input type="reset" value="取消" class="resetInput">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bigTransparentModule hiddenModule">
+</div>
+<div class="smallModule hiddenModule">
+    <div class="memmberInfo">
+        <div class="memmberInfoHeader"><span class="fontIntroduceCreaterOrder">订单查询</span><button class="bigDeleteX"></button></div>
+        <div class="memmberInfoContent">
+            <div class="ordersInfoContent">
+                <form action="#">
+                    <div class="contentMiddleFirstRow">
+                        <div class="orderNo contentMiddleNextDiv">
+                            <span class="fontDescribe">订单编号:</span>
+                            <input type="text" class="inputWh" placeholder="请输入订单编号">
+                        </div>
+                        <div class="orderDate contentMiddleNextDiv">
+                            <span class="fontDescribe">订单时间:</span>
+                            <input type="date" class="inputWh selectDate" placeholder="年/月/日">
+                            <hr>
+                            <input type="date" class="inputWh selectDate" placeholder="年/月/日">
+                        </div>
+                        <div class="payStatus contentMiddleNextDiv">
+                            <span class="fontDescribe">订单状态:</span>
+                            <select name="" class="selectWh selectCategory">
+                                <option value="all">全部</option>
+                                <option value="today">已支付</option>
+                                <option value="today">代付款</option>
+                                <option value="today">已发货</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contentMiddleSecondRow">
+                        <div class="btnDiv">
+                            <input type="button" value="查询" class="queryInput">
+                        </div>
+                        <div class="btnDiv">
+                            <input type="reset" value="重置" class="resetInput">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tableMemmberInfoContent">
+                <table class="bottomTable">
+                    <thead>
+                    <tr>
+                        <td>序号</td>
+                        <td>订单编号</td>
+                        <td>订单日期</td>
+                        <td>商品种类</td>
+                        <td>商品数量</td>
+                        <td>采购金额</td>
+                        <td>订单状态</td>
+                        <td>操作</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>65465411541663</td>
+                        <td>2021/1/2 17:4:34</td>
+                        <td>11</td>
+                        <td>10</td>
+                        <td>52.6</td>
+                        <td>未发货</td>
+                        <td><button class="tdBtn">详情</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>65465411541663</td>
+                        <td>2021/1/2 17:4:34</td>
+                        <td>11</td>
+                        <td>10</td>
+                        <td>52.6</td>
+                        <td>未发货</td>
+                        <td><button class="tdBtn">详情</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>65465411541663</td>
+                        <td>2021/1/2 17:4:34</td>
+                        <td>11</td>
+                        <td>10</td>
+                        <td>52.6</td>
+                        <td>未发货</td>
+                        <td><button class="tdBtn">详情</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>65465411541663</td>
+                        <td>2021/1/2 17:4:34</td>
+                        <td>11</td>
+                        <td>10</td>
+                        <td>52.6</td>
+                        <td>未发货</td>
+                        <td><button class="tdBtn">详情</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>65465411541663</td>
+                        <td>2021/1/2 17:4:34</td>
+                        <td>11</td>
+                        <td>10</td>
+                        <td>52.6</td>
+                        <td>未发货</td>
+                        <td><button class="tdBtn">详情</button></td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="8" class="speialDiv">
+                            <div class="footerPagination">
+                                <div class="footerPaginationDiv footerPaginationDivFirstZero"><span>当前显示 1 到10条，共 32条记录、4页</span></div>
+                                <div class="footerPaginationDiv footerPaginationDivFirst"><input type="text"></div>
+                                <div class="footerPaginationDiv footerPaginationDivFirst"><input type="button" class="footerPaginationDivBtn" value="跳转"></div>
+                                <div class="footerPaginationDiv footerPaginationDivSecond">
+                                    <input type="button" class="footerPaginationDivSecondInputFirst">
+                                    <input type="text" class="footerPaginationDivSecondInputThird" value="1" readonly>
+                                    <input type="button" class="footerPaginationDivSecondInputSecond">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="withdrawFrame withdrawFrameHiddenModule">
+    <div class="memmberInfoHeader"><span class="fontIntroduceCreaterOrder">余额支付</span></div>
+    <div class="memmberInfoContent">
+        <div class="inputDiv">
+            <ul class="inputDivUl">
+                <li><span class="firstBaseInfoInputContentUlSpanSpel baseInfoInputContentUlSpanSpel">手机号:</span><span class="firstBaseInfoInputContentUlSpanSpel secondBaseInfoInputContentUlSpanSpel">187****1256</span><button class="secondLastBaseInfoInputContentUlButton">获取验证码</button></li>
+                <li><span class="baseInfoInputContentUlSpan">请输入验证码:</span><input type="text" class="lastBaseInfoInputContentUlSpan" placeholder="请输入验证码"></li>
+            </ul>
+        </div>
+        <div class="btnDiv">
+            <button>取消</button>
+            <button>确认</button>
+        </div>
+    </div>
+</div>
+
+<div class="bigTransparentModule withdrawFrameHiddenModule">
+</div>
+<!--    <div>-->
+<!--        <svg t="1609837287896" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1152" width="20" height="20"><path d="M405.333333 682.666667h426.666667a21.333333 21.333333 0 0 0 21.333333-21.333334V640H128v21.333333a21.333333 21.333333 0 0 0 21.333333 21.333334h256z m197.973334 42.666666l36.053333 144.170667A21.333333 21.333333 0 0 1 618.666667 896h-256a21.333333 21.333333 0 0 1-20.693334-26.496L378.026667 725.333333H149.333333A64 64 0 0 1 85.333333 661.333333v-469.333333A64 64 0 0 1 149.333333 128h682.666667A64 64 0 0 1 896 192v469.333333a64 64 0 0 1-64 64h-228.693333z m-43.946667 0H421.973333l-32 128h201.386667l-32-128zM128 597.333333h725.333333V192a21.333333 21.333333 0 0 0-21.333333-21.333333h-682.666667a21.333333 21.333333 0 0 0-21.333333 21.333333V597.333333z" fill="#000000" p-id="1153"></path></svg>-->
+<!--    </div>-->
+<!--右侧结束-->
+
+<!--    &lt;!&ndash; HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries &ndash;&gt;-->
+<!--    &lt;!&ndash;[if lt IE 9]>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>-->
+<!--    <![endif]&ndash;&gt;-->
+<!--    &lt;!&ndash; jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>-->
+<!--    &lt;!&ndash; 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>-->
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('div,img,a,h1');</script>
+<![endif]-->
+</body>
+</html>
