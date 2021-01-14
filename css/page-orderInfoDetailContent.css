@@ -7,7 +7,7 @@ body {
 }
 .bigTransparentModule {
     width: 100%;
-    height:1160px;
+    height:1332px;
     background-color: #b5b5b5;
     opacity: 0.8;
     position: absolute;
@@ -18,12 +18,9 @@ body {
 .hiddenModule{
     /*display: none;*/
 }
-.hiddenModuleSecond{
-    display: none;
-}
 .smallModule{
     width: 1200px;
-    height:924px;
+    height:858px;
     background-color: white;
     position: absolute;
     top:173px;
@@ -32,30 +29,12 @@ body {
     margin: 0 auto;
     overflow: auto;
 }
-.smallModule .selectDrugFrame {
-    width: 948px;
-    height: 525px;
-    background-color:white;
-    position: absolute;
-    left: 127px;
-    top:277px;
-    z-index: 20000;
-    padding: 23px 18px 0 18px;
-    border: 3px solid #a0abbf;
-}
-.smallModule .selectDrugFrame .tableMemmberInfoContent {
-    width: 100%;
-    height: 325px;
-}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable{
-    position: relative;
-}
-
 .smallModule .memmberInfo {
     width: 100%;
     height: 151px;
     /*background-color: #5f8dff;*/
 }
+
 .smallModule .memmberInfo .memmberInfoHeader{
     width: 100%;
     height: 60px;
@@ -83,17 +62,17 @@ body {
 .smallModule .memmberInfo .memmberInfoContent > div:nth-child(1){
     position: absolute;
     left:60px;
-    top:20px;
+    top:25px;
 }
 .smallModule .memmberInfo .memmberInfoContent > div:nth-child(2){
     position: absolute;
     left:400px;
-    top:20px;
+    top:25px;
 }
 .smallModule .memmberInfo .memmberInfoContent > div:nth-child(3){
     position: absolute;
     left:740px;
-    top:20px;
+    top:25px;
 }
 .smallModule .goodsInfo {
     width: 100%;
@@ -127,24 +106,11 @@ body {
     width: 1099px;
     height: 120px;
 }
-.smallModule .selectDrugFrame .footerPagination {
-    width: 100%;
-    height: 90px;
-    position: absolute;
-    left:0px;
-    top:480px;
-    z-index: 20000;
-}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr
 {
     height: 50px;
 }
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable thead tr
-{
-    height: 40px;
-}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr td,
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable thead tr td
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable thead tr td
 {
     text-align: center;
     font-size: 12px;
@@ -155,11 +121,7 @@ body {
     line-height: 50px;
     z-index: 20000;
 }
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable thead tr td{
-    line-height: 40px;
-}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td,
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td
 {
     text-align: center;
     height: 100%;
@@ -171,49 +133,22 @@ body {
     font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
     color: #333333;
 }
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td{
-    line-height: 40px;
-}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(1){width: 10.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(2){width: 14.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(3){width: 14.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(4){width: 14.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(5){width: 9.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(6){width: 11.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(7){width: 9.5%;}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(8){width: 15.5%;position: relative;z-index: 19999;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(1){width: 9.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(2){width: 14.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(3){width: 14.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(4){width: 14.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(5){width: 10.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(6){width: 11.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(7){width: 9.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(8){width: 9.11%;}
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tr td:nth-child(9){width: 9.11%;}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:nth-child(odd){
     background-color: #ccd2de;
 }
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(1){width: 10.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(2){width: 14.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(3){width: 14.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(4){width: 14.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(5){width: 9.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(6){width: 11.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(7){width: 9.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tr td:nth-child(8){width: 15.5%;}
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tbody tr:nth-child(odd){
-    background-color: #ccd2de;
-}
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:hover,
-.smallModule .selectDrugFrame .tableMemmberInfoContent .bottomTable tbody tr:hover{
+.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable tbody tr:hover{
     background-color: #a6a8f0;
 }
-.smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable .bottomTableDeleteBtn {
-    width: 26px;
-    height: 26px;
-    background: url("../img/common/delete.png") no-repeat center;
-    border: none;
-    position: relative;
-    left:20px;
-    top:7px;
-}
-@-moz-document url-prefix(){
-    .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent .bottomTable .bottomTableDeleteBtn{
-        top:-4px;
-    }
-}
+
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirstZero{
     font-size: 14px;
     font-family: Source Han Sans CN Medium, Source Han Sans CN Medium-Medium;
@@ -222,16 +157,6 @@ body {
     position: absolute;
     top: 30px;
     left: 400px;
-}
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivFirstZero{
-    font-size: 14px;
-    font-family: Source Han Sans CN Medium, Source Han Sans CN Medium-Medium;
-    font-weight: 500;
-    color: #6d6d6d;
-    position: absolute;
-    top: 20px;
-    left: 350px;
-    z-index: 20000;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirst input{
     width: 60px;
@@ -242,17 +167,6 @@ body {
     top: 33px;
     left: 800px;
     z-index: 1;
-}
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivFirst input{
-    width: 60px;
-    height: 38px;
-    border: 1px solid #e5e5e5;
-    border-radius: 5px;
-    position: absolute;
-    top: 3px;
-    left: 620px;
-    z-index: 1;
-    z-index: 20000;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivFirst .footerPaginationDivBtn{
     position: absolute;
@@ -267,25 +181,8 @@ body {
     text-align: center;
     color: #ffffff;
 }
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivFirst .footerPaginationDivBtn{
-    position: absolute;
-    top: 5px;
-    left: 700px;
-    background: #487cf7;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
-    font-weight: 500;
-    text-align: center;
-    color: #ffffff;
-    z-index: 20000;
-}
 .speialDiv{
     position: relative;
-}
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
-    margin-left: 70px;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond{
     position: absolute;
@@ -294,15 +191,6 @@ body {
     /*background-color: #282b33;*/
     height: 100%;
     width: 150px;
-}
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond{
-    position: absolute;
-    top: 5px;
-    left: 400px;
-    /*background-color: #282b33;*/
-    height: 100%;
-    width: 150px;
-    z-index: 20000;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
     width: 42px;
@@ -313,17 +201,6 @@ body {
     top: 30px;
     border: none;
     cursor: pointer;
-}
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
-    width: 42px;
-    height: 38px;
-    background: #fff url("../img/common/left.png") no-repeat center center;
-    position: absolute;
-    left: 370px;
-    top: 0px;
-    border: none;
-    cursor: pointer;
-    z-index: 20000;
 }
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird{
     width: 26px;
@@ -336,18 +213,6 @@ body {
     text-align: center;
     background-color: #b5b5b5;
 }
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird{
-    width: 26px;
-    height: 35px;
-    position: absolute;
-    left: 480px;
-    top: 0px;
-    border: none;
-    z-index: 100;
-    text-align: center;
-    background-color: #b5b5b5;
-    z-index: 20000;
-}
 .smallModule .goodsInfo .goodsInfoContent .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond{
     width: 42px;
     height: 38px;
@@ -358,21 +223,10 @@ body {
     border: none;
     cursor: pointer;
 }
-.smallModule .selectDrugFrame .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond{
-    width: 42px;
-    height: 38px;
-    background: #fff url("../img/common/right.png") no-repeat center center;
-    position: absolute;
-    left: 508px;
-    top: 0px;
-    border: none;
-    cursor: pointer;
-    z-index: 19999;
-}
 .smallModule .goodsInfo .goodsInfoContent .tableMemmberInfoContent{
     position: absolute;
     left:60px;
-    top:90px;
+    top:20px;
 }
 .smallModule .ordersInfo {
     width: 1182px;
@@ -423,22 +277,26 @@ body {
     left: 750px;
     /*background-color: #a6a8f0;*/
 }
-.smallModule .ordersInfo .ordersInfoContent .sendBtn{
-    width: 100px;
-    height: 40px;
-    background: #487cf7;
-    border-radius: 3px;
-    border: none;
-    position: absolute;
-    top:175px;
-    left: 50px;
+.fontIntroduceCreaterOrder{
+    float: left;
+    height: 100%;
+    line-height: 60px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: Source Han Sans CN Bold, Source Han Sans CN Bold-Bold;
+    font-weight: 700;
+    color: #333333;
+}
+.fontMemmberInfoContent{
     font-size: 14px;
     font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
     font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
+    text-align: left;
+    color: #565656;
+    margin-right: 5px;
 }
+
+
 /*左侧logo和导航栏样式*/
 .left{
     /*background-color: chartreuse;*/
@@ -461,7 +319,7 @@ body {
 
 .left .leftNav{
     width: 100%;
-    height: 1072px;
+    height: 1224px;
     background: #424651;
 }
 .leftNav .nav {
@@ -608,165 +466,301 @@ body {
     margin-top: 8px;
 }
 
-
 .right .content {
     background-color: rgb(238,238,238);
     width: 100%;
-    height: 1042px;
-    padding: 31px 0 0 20px;
+    height: 1204px;
+    padding: 21px 0 0 40px;
 }
-.right .content .rightContentTop .dataShow {
-    width: 96%;
-    height: 420px;
-    background-color: white;
-    box-shadow: 0px 1px 24px 1px #e7e7e7;
-    border-radius: 5px;
-    margin: 40px 0 30px 20px;
+
+.right  .content .contentTop {
+    width: 1530px;
+    *width : 1625px;
+    height: 230px;
+    background-color: #fff;
 }
-.right .content .rightContentBottom .dataShow {
-    width: 96%;
-    height: 270px;
-    background-color: white;
-    box-shadow: 0px 1px 24px 1px #e7e7e7;
-    border-radius: 5px;
-    margin: 40px 0 30px 20px;
+
+.right  .content .contentMiddle {
+    width: 1530px;
+    height: 118px;
+    margin: 20px 0 20px 0px;
+    /*background-color: #e7e7e7;*/
 }
-.right .content .rightContentTop .dataShow .firstRowData .first{
-    background: linear-gradient(#3e75ff 0%, #5f8dff 100%);
+.right  .content .contentBottom {
+    width: 1510px;
+    height: 778px;
+    background-color: #e7e7e7;
+}
+.right  .content .contentTop .firstRow .btnDiv {
     float: left;
+    width: 80px;
+    height: 31px;
+    margin-right: 8px;
+    margin-top: 31px;
 }
-.right .content .rightContentTop .dataShow .firstRowData .second{
-    background: linear-gradient(#7878e6 0%, #a6a8f0 100%);
+.right  .content .contentTop .firstRow .btnDiv:first-child{
+    margin-left: 16px;
+}
+.right  .content .contentTop .firstRow .btnDiv:last-child{
+    margin-right: 30px;
+}
+.right  .content .contentTop .firstRow .dateFilter {
+    margin-top: 24px;
+    margin-left: 20px;
     float: left;
+    width: 600px;
+    height: 40px;
+    /*background-color: #e54b3f;*/
 }
-.right .content .rightContentTop .dataShow .firstRowData .third{
-    background: linear-gradient(#fe756b 0%, #e54b3f 100%);
-    float: left;
+.right  .content .contentTop .firstRow .dateFilter .fontDescribe{
+    font-size: 14px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    color: #565656;
+    margin-right: 10px;
 }
-.right .content .rightContentTop .dataShow .secondRowData{
+.right .content .inputWh{
+    width: 160px;
+    height: 39px;
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 16px 1px rgba(212,212,212,0.53);
+    font-size: 14px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    text-align: center;
+    color: #aaaaaa;
+}
+.right .content .selectWh{
+    width: 160px;
+    height: 42px;
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 16px 1px rgba(212,212,212,0.53);
+    margin-left: 6px;
+    font-size: 14px;
+    font-family: "Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    text-align: center;
+    color: #aaaaaa;
+}
+hr{
+    display: inline-block;
+    width: 22px;
+    color: #b5b5b5;
+    margin: 0 4px;
+}
+.right  .content .contentTop .secondRow {
+    padding-top: 35px;
     clear: both;
 }
-.right .content .rightContentTop .dataShow .secondRowData .first{
-    /*background: linear-gradient(#738cfe 0%, #bca5fc 100%);*/
-    background: url("../img/index/purple.png") no-repeat;
+.right  .content .contentTop .secondRow .first{
     float: left;
+    background: url("../img/index/orderInfo/clinch a deal.png") no-repeat;
 }
-.right .content .rightContentTop .dataShow .secondRowData .second{
-    /*background: linear-gradient(#ffae65 0%, #fece71 100%);*/
-    background: url("../img/index/orange.png") no-repeat;
+.right  .content .contentTop .secondRow .second{
     float: left;
+    margin-left: -80px;
+    background: url("../img/index/orderInfo/clinch a deal_1.png") no-repeat;
 }
-.right .content .rightContentTop .dataShow .secondRowData .third{
-    /*background: linear-gradient(#3e75ff 0%, #5f8dff 100%);*/
-    background: url("../img/index/blue.png") no-repeat;
-    float: left;
-}
-.right .content .rightContentTop .dataShow .showDetail{
-    clear: both;
-    margin-left: 30px;
-    padding-top: 30px;
-}
-.right .content .rightContentTop .dataShow .firstRowData,
-.right .content .rightContentTop .dataShow .secondRowData{
-    padding: 30px 0 0 0;
-}
-.right .content .rightContentBottom .dataShow .firstRowData .first{
-    background: #edf6ff;
-    float: left;
-}
-.right .content .rightContentBottom .dataShow .firstRowData .second{
-    background: #edf6ff;
-    float: left;
-}
-.right .content .rightContentBottom .dataShow .firstRowData .third{
-    background: #edf6ff;
-    float: left;
-}
-.right .content .rightContentBottom .dataShow .firstRowData{
-    padding-top: 30px;
-}
-.right .content .rightContentBottom .dataShow .showDetail{
-    clear: both;
-    margin-left: 30px;
-    padding-top: 30px;
-}
-.right .content .rightContentTop .dataShow .totalAmount,
-.right .content .rightContentTop .dataShow .fontInstruction,
-.right .content .rightContentTop .dataShow .BigPic{
+
+.right .content .contentTop .secondRow .totalAmount,
+.right .content .contentTop .secondRow .fontInstruction{
     position: absolute;
 }
-.right .content .rightContentTop .dataShow .totalAmount{
-    left: 24px;
-    top: 22px;
+.right .content .contentTop .secondRow .totalAmount{
+    left: 34px;
+    top: 18px;
     font-size: 26px;
     font-family: "Source Han Sans CN Bold", "Source Han Sans CN Bold-Bold";
     font-weight: 700;
     text-align: left;
     color: #ffffff;
 }
-.right .content .rightContentTop .dataShow .fontInstruction{
-    left: 24px;
-    top: 74px;
+.right .content .contentTop .secondRow .fontInstruction{
+    left: 34px;
+    top: 64px;
     font-size: 14px;
     font-family: "Source Han Sans CN Bold", "Source Han Sans CN Bold-Bold";
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
     color: #ffffff;
 }
-.right .content .rightContentTop .dataShow .BigPic {
-    left: 200px;
-    top: 28px;
-    width: 69px;
-    height: 69px;
+.right .content .contentMiddle{
+    padding-top: 30px;
+    padding-left: 20px;
 }
-.right .content .rightContentTop .dataShow .firstRowData .first .BigPic {
-    background: url("../img/index/money.png") no-repeat;
+.right .content .contentMiddle .contentMiddleNextDiv{
+    float: left;
+    margin-right: 20px;
 }
-.right .content .rightContentTop .dataShow .firstRowData .second .BigPic {
-    background: url("../img/index/order_1.png") no-repeat;
+.right .content .contentMiddle .contentMiddleSecondRow{
+    clear: both;
 }
-.right .content .rightContentTop .dataShow .firstRowData .third .BigPic {
-    background: url("../img/index/singular.png") no-repeat;
+.right .content .contentMiddle .contentMiddleSecondRow .btnDiv{
+    float: left;
+    width: 80px;
+    height: 31px;
+    margin-right: 30px;
+    margin-top: 31px;
 }
-.right .content .rightContentBottom .dataShow .totalAmountBottom{
-    position: absolute;
-    left: 120px;
-    top: 22px;
-    font-size: 26px;
-    font-family: "Source Han Sans CN Bold", "Source Han Sans CN Bold-Bold";
-    font-weight: 700;
-    color: #424651;
+.right .content .contentMiddle .contentMiddleSecondRow .btnDiv .queryInput {
+    width: 100px;
+    height: 40px;
+    background: #487cf7;
+    border-radius: 3px;
+    border: none;
 }
-.right .content .rightContentBottom .dataShow .fontInstructionBottom{
-    position: absolute;
-    left: 100px;
-    top: 74px;
+.right .content .contentMiddle .contentMiddleSecondRow .btnDiv .resetInput {
+    width: 100px;
+    height: 40px;
+    background: #f7423f;
+    border-radius: 3px;
+    border: none;
+}
+.right .content .contentBottom{
+    padding: 10px 10px 0 10px;
+}
+.right .content .contentBottom .bottomTable {
+    text-align: center;
+    /*border: 1px blue solid;*/
+    width: 100%;
+}
+.right .content .contentBottom .bottomTable thead tr {
+    height: 50px;
+}
+.right .content .contentBottom .bottomTable thead tr td{
+    width: 11.14%;
+    text-align: center;
+    font-size: 12px;
+    height: 100%;
+    font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
+    font-weight: bold;
+    color: #333333;
+    line-height: 50px;
+    /*border: 1px blue solid;*/
+}
+.right .content .contentBottom .bottomTable tbody tr td{
+    width: 11.14%;
+    text-align: center;
+    height: 100%;
+    font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
+    font-weight: 400;
+    color: #333333;
+    line-height: 50px;
+    /*border: 1px blue solid;*/
     font-size: 14px;
+    font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
+    color: #333333;
+}
+.right .content .contentBottom .bottomTable tbody tr:hover,
+.right .content .contentBottom .bottomTable thead tr:hover{
+    background-color: #a6a8f0;
+}
+
+.right .content .contentBottom .bottomTable tbody tr:nth-child(even){
+    background-color: #ccd2de;
+}
+.right .content .contentBottom .bottomTable tbody tr td .tableInputButton{
+    width: 50px;
+    height: 30px;
+    opacity: 0.3;
+    background: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family:" Source Han Sans CN Regular", "Source Han Sans CN Regular-Regular";
+    font-weight: 400;
+    text-align: center;
+    color: darkblue;
+    cursor: pointer;
+}
+.right .content .contentBottom .bottomTable tbody tr td .tableInputButton:hover{
+    opacity: 0.8;
+}
+.right .content .contentBottom .bottomTable tfoot tr{
+    height: 155px;
+}
+.right .content .contentBottom .bottomTable tfoot tr td{
+    position: relative;
+}
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 800px;
+    height: 26px;
+    /*background-color: #e54b3f;*/
+    padding-top: 12px;
+}
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDiv{
+    float: left;
+    font-size: 14px;
+    font-family: Source Han Sans CN Medium, Source Han Sans CN Medium-Medium;
+    font-weight: 500;
+    color: #6d6d6d;
+}
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivFirst input{
+    width: 60px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin-top: -15px;
+    margin-left: 45px;
+}
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivFirst .footerPaginationDivBtn{
+    margin-top: -10px;
+    margin-left: 20px;
+    background: #487cf7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
     font-family: "Source Han Sans CN Medium", "Source Han Sans CN Medium-Medium";
     font-weight: 500;
-    color: #424651;
+    text-align: center;
+    color: #ffffff;
 }
-.right .content .rightContentBottom .dataShow .iconBottom {
-    float: left;
-    width: 22px;
-    height: 22px;
-    background-color: #e54b3f;
-    margin-top: -4px;
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst{
+    margin-left: 70px;
 }
-.right .content .rightContentBottom .dataShow .firstRowData div:nth-child(1) .iconBottom {
-    background: url("../img/index/varieties.png") no-repeat;
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond{
+    margin-left: 70px;
+    position: relative;
+    /*background-color: #282b33;*/
+    height: 100%;
+    width: 150px;
 }
-.right .content .rightContentBottom .dataShow .firstRowData .second .fontInstructionBottom .iconBottom{
-    background: url("../img/index/warning.png") no-repeat;
-}
-.right .content .rightContentBottom .dataShow .firstRowData div:nth-child(3) .iconBottom {
-    background: url("../img/index/warning_1.png") no-repeat;
-}
-.right .content .rightContentBottom .dataShow .fontInstructionSpan{
-    margin-left: 5px;
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst {
+    width: 42px;
+    height: 38px;
+    background: #fff url("../img/common/left.png") no-repeat center center;
+    position: absolute;
+    left: -60px;
+    top: -11px;
+    border: none;
+    cursor: pointer;
 }
 
-
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputThird {
+    position: absolute;
+    width: 26px;
+    height: 35px;
+    left: 50px;
+    top: -11px;
+    border: none;
+    z-index: 100;
+    text-align: center;
+    background-color: #b5b5b5;
+}
+.right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond {
+    width: 42px;
+    height: 38px;
+    background: #fff url("../img/common/right.png") no-repeat center center;
+    position: absolute;
+    left: 78px;
+    top: -11px;
+    border: none;
+    cursor: pointer;
+}
 /*公共部分样式*/
 .icon{
     margin-right: 10px;
@@ -776,12 +770,29 @@ body {
     height: 120px;
     border-radius: 5px;
     margin-left: 30px;
+    /*background-color: #e54b3f;*/
     position: relative;
 }
 .deepBlueBtn{
     width: 100px;
     height: 40px;
     background: #487cf7;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btnDiv .btn{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #ccd2de;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.btnDiv .blueBtn{
+    width: 100%;
+    height: 100%;
+    background: #487cf7;
+    border: 1px solid #487cf7;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -822,29 +833,4 @@ body {
 .accountPrefix{
     font-weight: bold;
 }
-.fontIntroduceCreaterOrder{
-    float: left;
-    height: 100%;
-    line-height: 60px;
-    margin-left: 30px;
-    font-size: 18px;
-    font-family: Source Han Sans CN Bold, Source Han Sans CN Bold-Bold;
-    font-weight: 700;
-    color: #333333;
-}
-.fontMemmberInfoContent{
-    font-size: 14px;
-    font-family: Source Han Sans CN Regular, Source Han Sans CN Regular-Regular;
-    font-weight: 400;
-    text-align: left;
-    color: #565656;
-    margin-right: 5px;
-}
-.inputMemmberInfoContent{
-    width: 160px;
-    height: 40px;
-    background: #ffffff;
-    border-radius: 3px;
-    box-shadow: 0px 0px 16px 1px rgba(212,212,212,0.53);
-    border: 1px solid #b5b5b5;
-}
+
