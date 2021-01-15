@@ -48,7 +48,7 @@ body {
 .content .baseInfoInput .baseInfoInputHeader .baseInfoInputHeaderUl li{
     width: 170px;
     height: 32px;
-    background: url("../img/register/element_1.png") no-repeat;
+    background: url("../images/register/element_1.png") no-repeat;
     float: left;
     /*margin-right: -15px;*/
     font-size: 14px;
@@ -60,7 +60,7 @@ body {
     position: absolute;
 }
 .content .baseInfoInput .baseInfoInputHeader .baseInfoInputHeaderUl li:nth-child(1) {
-    background: url("../img/register/element.png") no-repeat 12px 0;
+    background: url("../images/register/element.png") no-repeat 12px 0;
     width: 145px;
     left: 10px;
     z-index: 4;

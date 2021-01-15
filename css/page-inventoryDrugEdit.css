@@ -44,7 +44,7 @@ body {
 .smallModule .memmberInfo .memmberInfoHeader .bigDeleteX{
     width: 22px;
     height: 22px;
-    background: url("../img/common/bigDelete.png") no-repeat center;
+    background: url("../images/common/bigDelete.png") no-repeat center;
     position:absolute;
     left: 800px;
     top:18px;
@@ -238,32 +238,32 @@ body {
     margin-top: 19px;
 }
 .leftNav .nav li:nth-child(1) .leftNavIcon{
-    background: url("../img/index/home.png") no-repeat;
+    background: url("../images/index/home.png") no-repeat;
 }
 .leftNav .nav li:nth-child(2) .leftNavIcon{
-    background: url("../img/index/order.png") no-repeat;
+    background: url("../images/index/order.png") no-repeat;
 }
 .leftNav .nav li:nth-child(3) .leftNavIcon{
-    background: url("../img/index/inventory.png") no-repeat;
+    background: url("../images/index/inventory.png") no-repeat;
 }
 .leftNav .nav li:nth-child(4) .leftNavIcon{
-    background: url("../img/index/drug.png") no-repeat;
+    background: url("../images/index/drug.png") no-repeat;
 }
 .leftNav .nav li:nth-child(5) .leftNavIcon{
-    background: url("../img/index/account.png") no-repeat;
+    background: url("../images/index/account.png") no-repeat;
 }
 .leftNav .nav li:nth-child(6) .leftNavIcon{
-    background: url("../img/index/agent.png") no-repeat;
+    background: url("../images/index/agent.png") no-repeat;
 }
 .leftNav .nav li:nth-child(7) .leftNavIcon{
-    background: url("../img/index/store.png") no-repeat;
+    background: url("../images/index/store.png") no-repeat;
 }
 .leftNav .nav li a .leftNavTangle {
     display: inline-block;
     /*float: right;*/
     width: 10px;
     height: 5px;
-    background: url("../img/index/down arrow.png") no-repeat;
+    background: url("../images/index/down arrow.png") no-repeat;
     margin: 29px 0 0 50px;
     padding: 0;
 }
@@ -297,7 +297,7 @@ body {
     height: 26px;
     margin-right: 14px;
     margin-top: -3px;
-    background: url("../img/index/hospital.png");
+    background: url("../images/index/hospital.png");
 }
 .right .rightNav .pharmacyName{
     width: 96px;
@@ -320,10 +320,10 @@ body {
     margin-top: -2px;
 }
 .right .rightNav .controlBoard div:nth-child(1) .smallIcon{
-    background: url("../img/index/me.png") no-repeat;
+    background: url("../images/index/me.png") no-repeat;
 }
 .right .rightNav .controlBoard div:nth-child(2) .smallIcon{
-    background: url("../img/index/date.png") no-repeat;
+    background: url("../images/index/date.png") no-repeat;
 }
 .right .rightNav .controlBoard{
     float: right;
@@ -576,7 +576,7 @@ hr{
 .right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputFirst {
     width: 42px;
     height: 38px;
-    background: #fff url("../img/common/left.png") no-repeat center center;
+    background: #fff url("../images/common/left.png") no-repeat center center;
     position: absolute;
     left: -60px;
     top: -11px;
@@ -598,7 +598,7 @@ hr{
 .right .content .contentBottom .bottomTable tfoot tr td .footerPagination .footerPaginationDivSecond .footerPaginationDivSecondInputSecond {
     width: 42px;
     height: 38px;
-    background: #fff url("../img/common/right.png") no-repeat center center;
+    background: #fff url("../images/common/right.png") no-repeat center center;
     position: absolute;
     left: 78px;
     top: -11px;

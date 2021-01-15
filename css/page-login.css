@@ -26,7 +26,7 @@ body {
 .content{
     width: 100%;
     height: 688px;
-    background: url("../img/login/bg.png") no-repeat;
+    background: url("../images/login/bg.png") no-repeat;
     position: relative;
 }
 .content .loginComponent{
@@ -43,7 +43,7 @@ body {
 }
 .content .loginComponent .textDesc {
     margin: 35px 0 0px 55px;
-    background: url("../img/login/line.png") no-repeat bottom left;
+    background: url("../images/login/line.png") no-repeat bottom left;
     padding-top:15px;
     height: 40px;
 }
@@ -80,10 +80,10 @@ body {
     height: 22px;
 }
 .content .loginComponent .phoneInput .loginIcon{
-    background: url("../img/login/user.png") no-repeat;
+    background: url("../images/login/user.png") no-repeat;
 }
 .content .loginComponent .pwdInput .loginIcon{
-    background: url("../img/login/password.png") no-repeat;
+    background: url("../images/login/password.png") no-repeat;
 }
 .content .loginComponent .loginInput {
     position: absolute;

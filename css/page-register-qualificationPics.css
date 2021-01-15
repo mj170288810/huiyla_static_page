@@ -48,7 +48,7 @@ body {
 .content .baseInfoInput .baseInfoInputHeader .baseInfoInputHeaderUl li{
     width: 170px;
     height: 32px;
-    background: url("../img/register/element_1.png") no-repeat;
+    background: url("../images/register/element_1.png") no-repeat;
     float: left;
     /*margin-right: -15px;*/
     font-size: 14px;
@@ -65,7 +65,7 @@ body {
     z-index: 4;
 }
 .content .baseInfoInput .baseInfoInputHeader .baseInfoInputHeaderUl li:nth-child(2) {
-    background: url("../img/register/element.png") no-repeat 12px 0;
+    background: url("../images/register/element.png") no-repeat 12px 0;
     top: 0;
     left: 100px;
     z-index: 3;
@@ -98,7 +98,7 @@ body {
 .content .baseInfoInput .addIconButton {
     height: 180px;
     width: 180px;
-    background: #e7e7e7 url("../img/register/add.png") no-repeat;
+    background: #e7e7e7 url("../images/register/add.png") no-repeat;
 }
 .content .baseInfoInput .addIconButton a {
     float: left;
